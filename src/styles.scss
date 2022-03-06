@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+@import "css/goldenlayout-base.css";
+// @import "css/themes/goldenlayout-dark-theme.css";
+
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.lm_header .lm_tab.lm_active {
+  border-bottom: none;
+  box-shadow: 0 -2px 2px #000000;
+  padding-bottom: 3px;
+  background-color: bisque;
+}
+
+.lm_header .lm_tab .lm_close_tab {
+  width: 11px;
+  height: 11px;
+  background-image: url('./img/lm_close_black.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  top: 4px;
+  right: 6px;
+  opacity: 0.4;
+  color: black;
+}
+
+.lm_controls .lm_popout {
+  background-image: url('./img/lm_popout_black.png');
+  width: 11px;
+  height: 11px;
+}
+.lm_controls .lm_maximise {
+  background-image: url('./img/lm_maximise_black.png');
+  width: 11px;
+  height: 11px;
+}
+.lm_controls .lm_close {
+  background-image: url('./img/lm_close_black.png');
+  width: 11px;
+  height: 11px;
+  margin: 1px;
+}
+.lm_controls .lm_dock .lm_popin{
+  background-image: url('./img/lm_close_black.png');
+  transform: rotate(-45deg);
+  transition: transform 300ms;
+  width: 11px;
+  height: 11px;
+}
+.lm_popin{
+  background-image: url('./img/lm_popin_black.png');
+  transform: rotate(-45deg);
+  transition: transform 300ms;
+  width: 12px;
+  height: 12px;
+}
